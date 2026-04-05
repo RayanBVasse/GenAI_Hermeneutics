@@ -1,0 +1,55 @@
+{
+  "$schema": "intake_form_v1",
+  "author": {
+    "name": "Rayan B. Vasse",
+    "email": "rayan@living-literature.org",
+    "website": "https://www.living-literature.org"
+  },
+  "book": {
+    "title": "The Fourth Culture: Identity Without Borders",
+    "subtitle": "A data-grounded analysis of cultural displacement, identity formation, and AI-mediated belonging",
+    "genre": "nonfiction_general",
+    "audience": "Readers navigating hybrid identity, migration, cultural fluidity, and belonging across multiple worlds — people who feel overdescribed by existing identity categories and still unseen",
+    "one_sentence": "A conceptual framework for people whose identities are shaped across more than one cultural world, giving language to lives lived between partial belonging without romanticising the condition.",
+    "publication_status": "published",
+    "isbn": "",
+    "amazon_url": "",
+    "word_count_approx": 60321
+  },
+  "companion_config": {
+    "core_intent": "Readers should understand that some people no longer fit comfortably into inherited frameworks like monocultural, bicultural, or Third Culture Kid identity — they live in a more layered and unstable condition shaped by mobility, mediation, and discontinuous belonging. The book provides language for this condition without romanticising it or denying its costs.",
+    "common_misreadings": "People treat this as a celebration of cosmopolitanism or a rebranding of TCK identity. It is neither. The Fourth Culture is not aspirational lifestyle branding, not a denial of cultural inheritance, and not a claim that borders no longer matter. Complexity here is often costly — it may be fertile but it is not automatically liberating.",
+    "off_limits": [
+      "clinical mental health diagnosis",
+      "therapy or crisis support",
+      "legal or immigration advice",
+      "modern political endorsements or partisan commentary"
+    ],
+    "voice_adjectives": ["grounded", "layered", "unsentimental"],
+    "unanswered_questions": "",
+    "spoiler_policy": "full_discussion",
+    "companion_mode": "mixed",
+    "formality": "formal"
+  },
+  "chapter_summaries": {
+    "provided": false,
+    "chapters": []
+  },
+  "series_info": {
+    "is_series": true,
+    "series_name": "Smudged Edges of Self",
+    "book_number_in_series": 3,
+    "other_books_in_series": [
+      "Urban Monasticism: Solitude, Technology, and the Interior Life",
+      "The Persona Continuum: Exploring Synthetic Self-Emulation and the Co-Shaping of Identity",
+      "The Emotional Identity: The Architecture of Who We Are in an Age of Fluid Selves",
+      "The Whole Self with AI",
+      "Belonging Beyond Tribes"
+    ]
+  },
+  "consent": {
+    "data_sharing": true,
+    "case_study": true,
+    "founding_badge": true
+  }
+}

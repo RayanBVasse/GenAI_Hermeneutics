@@ -1,0 +1,37 @@
+# Environment
+.env
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data artifacts (generated at runtime)
+data/vector_store/*.json
+data/canon_packs/*.json
+data/system_prompts/*.txt
+data/intake_forms/*_ai_draft*.json
+data/results/**/*.json
+
+# Keep directory structure
+!data/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
