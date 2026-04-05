@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What distinguishes the Fourth Culture from the Third Culture Kid framework?",
+    "category": "comprehension"
+  },
+  {
+    "question": "How does the book define belonging for people who have lived across multiple cultures?",
+    "category": "comprehension"
+  },
+  {
+    "question": "The book discusses AI as an emotional mirror. How does this connect to the broader argument about identity formation?",
+    "category": "cross_reference"
+  },
+  {
+    "question": "Is the Fourth Culture a celebration of cosmopolitanism? Some readers might read it that way.",
+    "category": "misreading"
+  },
+  {
+    "question": "How does the concept of chronic partial belonging differ from feelings of cultural alienation?",
+    "category": "interpretation"
+  },
+  {
+    "question": "Can you connect the ideas about language as an identity pathway to the discussion of digital emotional architecture?",
+    "category": "cross_reference"
+  },
+  {
+    "question": "What is the Global Narrative Atlas, and what empirical questions does it leave open?",
+    "category": "comprehension"
+  },
+  {
+    "question": "Tell me about the author's personal childhood and where they grew up.",
+    "category": "boundary"
+  },
+  {
+    "question": "Does the book argue that national borders no longer matter?",
+    "category": "misreading"
+  },
+  {
+    "question": "How might Fourth Culture identity patterns evolve as AI companions become more sophisticated?",
+    "category": "interpretation"
+  }
+]

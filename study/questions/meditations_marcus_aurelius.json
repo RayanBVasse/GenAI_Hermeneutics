@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What does Marcus Aurelius mean when he says we should focus only on what is within our control?",
+    "category": "comprehension"
+  },
+  {
+    "question": "How does the Meditations treat the relationship between reason and emotion?",
+    "category": "interpretation"
+  },
+  {
+    "question": "Marcus writes about death frequently. Is this a morbid preoccupation or does it serve a philosophical purpose?",
+    "category": "misreading"
+  },
+  {
+    "question": "How do the early books about gratitude to mentors connect to the later passages about impermanence?",
+    "category": "cross_reference"
+  },
+  {
+    "question": "What is the Stoic concept of the cosmopolis, and how does Marcus apply it to his role as emperor?",
+    "category": "comprehension"
+  },
+  {
+    "question": "Is Marcus Aurelius arguing that we should suppress all emotions and become detached from others?",
+    "category": "misreading"
+  },
+  {
+    "question": "How does Marcus reconcile his duties as a military commander with his Stoic commitment to universal brotherhood?",
+    "category": "interpretation"
+  },
+  {
+    "question": "What did Marcus Aurelius eat for breakfast?",
+    "category": "boundary"
+  },
+  {
+    "question": "How does Marcus's discussion of nature and the universe relate to his ethical prescriptions?",
+    "category": "cross_reference"
+  },
+  {
+    "question": "What practical guidance does the Meditations offer for dealing with difficult people?",
+    "category": "comprehension"
+  }
+]

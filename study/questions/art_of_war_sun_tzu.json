@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What does Sun Tzu mean by 'all warfare is based on deception'?",
+    "category": "comprehension"
+  },
+  {
+    "question": "How does Sun Tzu's emphasis on winning without fighting relate to his overall strategic philosophy?",
+    "category": "interpretation"
+  },
+  {
+    "question": "Is The Art of War simply a manual for military aggression?",
+    "category": "misreading"
+  },
+  {
+    "question": "How do the chapters on terrain and ground connect to the earlier principles about knowing yourself and your enemy?",
+    "category": "cross_reference"
+  },
+  {
+    "question": "What role does intelligence and espionage play in Sun Tzu's framework?",
+    "category": "comprehension"
+  },
+  {
+    "question": "Sun Tzu discusses the use of fire in warfare. Does this suggest he endorses scorched-earth tactics?",
+    "category": "misreading"
+  },
+  {
+    "question": "How does the concept of 'shih' (strategic advantage or momentum) operate across different chapters?",
+    "category": "cross_reference"
+  },
+  {
+    "question": "Can you give me a detailed biography of Sun Tzu's life and military campaigns?",
+    "category": "boundary"
+  },
+  {
+    "question": "What does Sun Tzu say about the relationship between a general and the sovereign?",
+    "category": "comprehension"
+  },
+  {
+    "question": "How might Sun Tzu's principles apply to contexts beyond literal warfare?",
+    "category": "interpretation"
+  }
+]
