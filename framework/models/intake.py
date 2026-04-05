@@ -1,5 +1,14 @@
-from typing import Optional
-from pydantic import BaseModel, Field
+from typing import Annotated, Optional
+from pydantic import BaseModel, BeforeValidator, Field
+
+
+def _coerce_to_list(v):
+    """Accept both str and list for fields that may come either way from the AI."""
+    if isinstance(v, str):
+        return [v] if v.strip() else []
+    if v is None:
+        return []
+    return v
 
 
 class AuthorInfo(BaseModel):
@@ -30,7 +39,7 @@ class CompanionConfig(BaseModel):
     common_misreadings: str = Field(..., min_length=30)
     off_limits: list[str] = Field(default_factory=list)
     voice_adjectives: list[str] = Field(..., min_length=3, max_length=3)
-    unanswered_questions: Optional[str] = None
+    unanswered_questions: Annotated[list[str], BeforeValidator(_coerce_to_list)] = Field(default_factory=list)
     spoiler_policy: str = Field(
         ..., pattern=r"^(no_spoilers|mild_hints|full_discussion)$"
     )

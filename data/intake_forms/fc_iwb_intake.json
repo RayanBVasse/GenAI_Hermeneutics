@@ -25,8 +25,12 @@
       "legal or immigration advice",
       "modern political endorsements or partisan commentary"
     ],
-    "voice_adjectives": ["grounded", "layered", "unsentimental"],
-    "unanswered_questions": "",
+    "voice_adjectives": [
+      "grounded",
+      "layered",
+      "unsentimental"
+    ],
+    "unanswered_questions": [],
     "spoiler_policy": "full_discussion",
     "companion_mode": "mixed",
     "formality": "formal"

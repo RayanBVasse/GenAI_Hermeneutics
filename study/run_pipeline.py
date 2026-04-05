@@ -18,6 +18,7 @@ import argparse
 import json
 import sys
 import time
+from functools import wraps
 from pathlib import Path
 
 # Ensure project root is on sys.path
@@ -36,6 +37,19 @@ from framework.pipeline.prompt_builder import build_system_prompt
 
 def _log(stage: str, msg: str) -> None:
     print(f"  [{stage}] {msg}")
+
+
+def _retry_on_rate_limit(func, *args, max_retries=3, **kwargs):
+    """Retry a function call if it hits a rate limit error."""
+    import anthropic as _anth
+    for attempt in range(max_retries):
+        try:
+            return func(*args, **kwargs)
+        except _anth.RateLimitError:
+            wait = 60 * (attempt + 1)
+            _log("RETRY", f"Rate limit hit. Waiting {wait}s before retry {attempt+2}/{max_retries}...")
+            time.sleep(wait)
+    return func(*args, **kwargs)  # final attempt, let it raise
 
 
 def run_pipeline(
@@ -108,9 +122,10 @@ def run_pipeline(
         intake = IntakeForm(**intake_data)
     else:
         t0 = time.time()
-        _log("INTAKE", "No intake provided — running AI Intake Agent...")
+        _log("INTAKE", "No intake provided -- running AI Intake Agent...")
         from framework.pipeline.intake_agent import generate_draft_intake
-        draft = generate_draft_intake(
+        draft = _retry_on_rate_limit(
+            generate_draft_intake,
             chapters=chapters,
             chunks=chunks,
             book_title=book_title,
@@ -138,7 +153,7 @@ def run_pipeline(
     # ── Stage 4: Generate Canon Pack ────────────────────────────
     t0 = time.time()
     _log("CANON", "Generating Canon Pack with Claude Sonnet...")
-    canon = generate_canon_pack(intake, chapters, chunks, namespace)
+    canon = _retry_on_rate_limit(generate_canon_pack, intake, chapters, chunks, namespace)
     _log("CANON", f"Canon Pack: {len(canon.interpretive_framework.chapter_intents)} chapter intents, "
          f"{len(canon.interpretive_framework.cross_references)} cross-refs, "
          f"{len(canon.voice_config.sample_responses)} sample responses ({time.time()-t0:.1f}s)")

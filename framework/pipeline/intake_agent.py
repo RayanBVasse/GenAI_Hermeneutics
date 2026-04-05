@@ -59,13 +59,23 @@ def generate_draft_intake(
     Generate a complete draft intake form from manuscript analysis.
     Returns IntakeDraft with per-field confidence scores.
     """
-    high_signal = get_high_signal_chunks(chunks, per_chapter=3)
+    # Scale content volume to book size to stay within token limits
+    if len(chapters) > 40:
+        per_ch = 1
+        preview_words = 100
+    elif len(chapters) > 20:
+        per_ch = 2
+        preview_words = 150
+    else:
+        per_ch = 3
+        preview_words = 200
+    high_signal = get_high_signal_chunks(chunks, per_chapter=per_ch)
 
-    # Build chapter overview (first 200 words per chapter)
+    # Build chapter overview (first N words per chapter)
     chapter_overview_parts = []
     for ch in chapters:
         words = ch.raw_text.split()
-        preview = " ".join(words[:200])
+        preview = " ".join(words[:preview_words])
         chapter_overview_parts.append(
             f"## Chapter {ch.number}: {ch.title}\n"
             f"Word count: {len(words)}\n"
@@ -78,7 +88,7 @@ def generate_draft_intake(
     for ch_num in sorted(high_signal.keys()):
         for chunk in high_signal[ch_num]:
             excerpt_parts.append(
-                f"[Ch {chunk.chapter_number} — {chunk.chapter_title}]\n"
+                f"[Ch {chunk.chapter_number} - {chunk.chapter_title}]\n"
                 f"{chunk.text[:600]}"
             )
     excerpts = "\n\n".join(excerpt_parts)

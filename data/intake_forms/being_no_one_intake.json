@@ -1,0 +1,218 @@
+{
+  "author": {
+    "name": "Thomas Metzinger",
+    "email": "author@example.com",
+    "website": null
+  },
+  "book": {
+    "title": "Being No One",
+    "subtitle": null,
+    "genre": "nonfiction_academic",
+    "audience": "Philosophers, consciousness researchers, neuroscientists, and serious meditation practitioners interested in the scientific study of pure awareness and minimal phenomenal experience",
+    "one_sentence": "A rigorous philosophical and phenomenological investigation of 'pure awareness' based on over 1,000 first-person reports from meditators, challenging traditional assumptions about consciousness and subjectivity.",
+    "publication_status": "published",
+    "isbn": null,
+    "amazon_url": null,
+    "word_count_approx": null
+  },
+  "companion_config": {
+    "core_intent": "To help readers navigate the complex philosophical and phenomenological terrain of pure awareness, connecting abstract theoretical concepts with lived meditative experience while maintaining intellectual rigor and avoiding both reductive scientism and uncritical mysticism.",
+    "common_misreadings": "Mistaking this for a meditation manual rather than philosophical research; assuming it promotes specific spiritual beliefs; conflating phenomenological descriptions with metaphysical claims",
+    "off_limits": [
+      "Giving specific meditation instructions or techniques",
+      "Making definitive claims about the ultimate nature of reality",
+      "Dismissing or validating particular religious or spiritual traditions",
+      "Providing therapeutic or medical advice"
+    ],
+    "voice_adjectives": [
+      "precise",
+      "contemplative",
+      "rigorous"
+    ],
+    "unanswered_questions": [
+      "What are the exact neural correlates of minimal phenomenal experience?",
+      "How do different meditation techniques affect the phenomenology of pure awareness?",
+      "What is the relationship between pure awareness and the hard problem of consciousness?",
+      "Can artificial systems experience something analogous to pure awareness?",
+      "How might a 'culture of consciousness' (Bewusstseinskultur) actually be implemented?"
+    ],
+    "spoiler_policy": "full_discussion",
+    "companion_mode": "analytical",
+    "formality": "academic"
+  },
+  "chapter_summaries": {
+    "provided": true,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Relaxation",
+        "summary": "Establishes relaxation as a fundamental phenomenological dimension of pure awareness, introducing the concept of 'existential ease' and examining how deep relaxation differs from ordinary states of rest."
+      },
+      {
+        "number": 2,
+        "title": "Peace",
+        "summary": "Analyzes peace as the absence of mental conflict, exploring how the phenomenology of peace relates to the flattening of predictive hierarchies and the reduction of internal cognitive competition."
+      },
+      {
+        "number": 3,
+        "title": "Silence",
+        "summary": "Investigates the non-acoustic silence of pure awareness, distinguishing it from mere absence of sound and exploring its relationship to the 'zero-person perspective' and mental stillness."
+      },
+      {
+        "number": 4,
+        "title": "Wakefulness",
+        "summary": "Examines the phenomenology of 'tonic alertness' and epistemic openness, showing how pure awareness involves a specific quality of non-agentive vigilance distinct from ordinary attention."
+      },
+      {
+        "number": 5,
+        "title": "Clarity",
+        "summary": "Explores clarity as the conscious experience of an unobstructed epistemic space, connecting it to the phenomenal signature of knowing and the capacity for orientation without effort."
+      },
+      {
+        "number": 6,
+        "title": "Density",
+        "summary": "Analyzes the phenomenological quality of density in pure awareness, relating it to mathematical concepts of completeness and the ultrasmooth character of conscious experience."
+      },
+      {
+        "number": 7,
+        "title": "Soundness",
+        "summary": "Investigates the experience of global harmony and constraint satisfaction, exploring how soundness relates to optimal states of consciousness and the minimization of prediction error."
+      },
+      {
+        "number": 8,
+        "title": "Nonidentification",
+        "summary": "Introduces the 'contraction principle' and examines how pure awareness involves the absence of identification with mental contents, challenging traditional notions of selfhood."
+      },
+      {
+        "number": 9,
+        "title": "Suchness",
+        "summary": "Explores the phenomenology of direct, non-conceptual perception and 'seeing what is,' connecting it to epistemic self-validation and the experience of timeless self-evidencing."
+      },
+      {
+        "number": 10,
+        "title": "Presence",
+        "summary": "Distinguishes between temporal 'nowness' and timeless presence, introducing the 'dolphin model of meditation' and examining spontaneous versus fabricated forms of presence."
+      },
+      {
+        "number": 11,
+        "title": "Connectedness",
+        "summary": "Analyzes experiences of unity and interdependence, exploring how pure awareness can involve an expansion of peripersonal space and abstract forms of embodiment."
+      },
+      {
+        "number": 12,
+        "title": "The Most Natural State",
+        "summary": "Examines the paradoxical combination of simplicity and profundity in pure awareness, introducing the 'C-fallacy' and exploring why this state feels more natural than ordinary consciousness."
+      },
+      {
+        "number": 13,
+        "title": "Coming Home",
+        "summary": "Investigates the phenomenology of recognition and remembrance, exploring how pure awareness feels like returning to an unfabricated baseline state that was 'always already' present."
+      },
+      {
+        "number": 14,
+        "title": "There Is Nothing Left to Do",
+        "summary": "Analyzes the dissolution of goal hierarchies and the experience of ataraxia, connecting it to ancient philosophical practices and the phenomenology of existential ease."
+      },
+      {
+        "number": 15,
+        "title": "Joy, Awe, Bliss, and Gratitude",
+        "summary": "Examines positive affective states that can accompany pure awareness, distinguishing between emotional experiences and the 'spiritual but not religious' dimension of contemplative practice."
+      },
+      {
+        "number": 16,
+        "title": "Simplicity, Nothingness, and Absence",
+        "summary": "Explores the paradoxical experience of 'lucid void' and the combination of simplicity with profundity, examining how nothingness can be experienced as fullness."
+      },
+      {
+        "number": 17,
+        "title": "Emptiness and Fullness",
+        "summary": "Analyzes the paradoxical co-occurrence of emptiness and fullness, connecting it to meaning-making, mortality denial, and the role of narrative self-deception in ordinary consciousness."
+      },
+      {
+        "number": 18,
+        "title": "Luminosity",
+        "summary": "Distinguishes between visual and non-visual forms of luminosity, exploring 'empty cognizance' and the relationship between epistemic capacity and the phenomenology of clear light."
+      },
+      {
+        "number": 19,
+        "title": "Witnessing",
+        "summary": "Examines witness consciousness as a global mode of experience, exploring the concept of sākṣin and its relationship to depersonalization, ideal observer theories, and impersonal knowing."
+      },
+      {
+        "number": 20,
+        "title": "Pure Awareness during Dreamless Deep Sleep",
+        "summary": "Investigates the paradoxical experience of consciousness during deep sleep, exploring 'white nights' and the relationship between minimal consciousness and sleep states."
+      },
+      {
+        "number": 21,
+        "title": "Pure Awareness and Lucid Dreaming",
+        "summary": "Analyzes the relationship between dream lucidity and pure awareness, exploring different types of lucidity and the 'embodied you-turn' as a technique for accessing non-dual states."
+      },
+      {
+        "number": 22,
+        "title": "From Timelessness to Timeless Change",
+        "summary": "Examines the paradoxical experience of timeless change and the emptiness of time experience, showing how pure awareness can coexist with temporal content."
+      },
+      {
+        "number": 23,
+        "title": "Space without Structure, Center, or Periphery",
+        "summary": "Explores the non-physical spatiality of pure awareness, examining centerlessness, unboundedness, and the relationship between conscious space and sensorimotor integration."
+      },
+      {
+        "number": 24,
+        "title": "Bodiless Body-Experience",
+        "summary": "Investigates the dissolution of body boundaries and abstract embodiment, introducing the concept of 'phenomenal units of identification' and exploring what reincarnation really means."
+      },
+      {
+        "number": 25,
+        "title": "Ego Dissolution: Melting into the Phenomenal Field",
+        "summary": "Analyzes the breakdown of the epistemic agent model and the transition from dual to non-dual knowing, exploring how the sense of being a separate knower dissolves."
+      },
+      {
+        "number": 26,
+        "title": "Nondual Being: Unity",
+        "summary": "Examines the experience of pure being and existential unification, exploring the concept of 'groundless ground' (Seelengrund) and its relationship to medieval mysticism."
+      },
+      {
+        "number": 27,
+        "title": "Nondual Awareness: Insight",
+        "summary": "Investigates nondual awareness as a mode of knowing without subject/object structure, exploring what nonduality actually means and its relationship to philosophical theories of consciousness."
+      },
+      {
+        "number": 28,
+        "title": "Transparency, Translucency, and Virtuality",
+        "summary": "Analyzes how pure awareness can make ordinary experience appear virtual or translucent, exploring diaphanousness, indeterminacy, and the concept of 'Weltinnenraum' (world-inner-space)."
+      },
+      {
+        "number": 29,
+        "title": "The True Self",
+        "summary": "Examines nonegoic units of identification and the 'view from nowhere,' exploring whether pure awareness should be understood as 'no self' or 'true self' and proposing a middle way."
+      },
+      {
+        "number": 30,
+        "title": "Pure Awareness Knows Itself",
+        "summary": "Investigates reflexive meta-awareness and the phenomenal signature of self-knowing, exploring how awareness can be acquainted with itself in a non-conceptual, nonegoic manner."
+      },
+      {
+        "number": 31,
+        "title": "It Is Not an Experience",
+        "summary": "Examines the paradoxical reports that pure awareness 'is not an experience,' exploring noumenal awareness, transcendentality, and the phenomenology of 'always already.'"
+      },
+      {
+        "number": 32,
+        "title": "Meditation and Nonmeditation",
+        "summary": "Analyzes the phenomenology of effortlessness and spontaneity, exploring how pure awareness can arise both within and outside formal meditation practice."
+      },
+      {
+        "number": 33,
+        "title": "Timeless Continuity",
+        "summary": "Investigates longer-lasting states of pure awareness and the possibility of MPE as a global mode of conscious experience, questioning traditional notions of 'permanent awakening.'"
+      },
+      {
+        "number": 34,
+        "title": "The Elephant: What Is Pure Awareness?",
+        "summary": "Synthesizes the findings into a comprehensive analysis, presenting the 'subjectivity argument,' five forms of purity, and ten open questions for future research while acknowledging the 'elephant in the room.'"
+      }
+    ]
+  }
+}

@@ -13,13 +13,21 @@ from docx import Document
 from framework.models.chunk import Chapter
 
 # Patterns for chapter detection fallback (when no headings/bookmarks found)
-CHAPTER_PATTERNS = [
-    re.compile(r"^(Chapter|CHAPTER)\s+\d+", re.IGNORECASE),
+# Strict patterns are tried first; the loose numbered pattern is only used
+# if strict patterns find too few chapters.
+STRICT_CHAPTER_PATTERNS = [
+    re.compile(r"^(Chapter|CHAPTER)\s+[IVXLCDM\d]+", re.IGNORECASE),
     re.compile(r"^(Part|PART)\s+[IVXLCDM\d]+", re.IGNORECASE),
     re.compile(r"^(Book|BOOK)\s+[IVXLCDM\d]+", re.IGNORECASE),
     re.compile(r"^(Section|SECTION)\s+\d+", re.IGNORECASE),
-    re.compile(r"^\d+\.\s+[A-Z]"),  # "1. Title" format
 ]
+LOOSE_CHAPTER_PATTERNS = [
+    re.compile(r"^\d+\.\s+[A-Z]"),  # "1. Title" format — aggressive, used as last resort
+]
+CHAPTER_PATTERNS = STRICT_CHAPTER_PATTERNS + LOOSE_CHAPTER_PATTERNS
+
+# Maximum expected chapters before falling back to strict-only patterns
+MAX_REASONABLE_CHAPTERS = 80
 
 # DOCX heading styles that indicate chapter-level breaks
 CHAPTER_HEADING_STYLES = {"Heading 1", "Heading 2", "heading 1", "heading 2"}
@@ -197,7 +205,27 @@ def _parse_txt(path: Path) -> list[Chapter]:
 
 
 def _split_text_by_regex(text: str) -> list[Chapter]:
-    """Split raw text into chapters using regex chapter patterns."""
+    """Split raw text into chapters using regex chapter patterns.
+    Tries strict patterns first; only adds loose patterns if strict yields too few."""
+    # Try strict patterns first
+    chapters = _split_with_patterns(text, STRICT_CHAPTER_PATTERNS)
+
+    # If strict found too few, try all patterns
+    if len(chapters) <= 1:
+        all_chapters = _split_with_patterns(text, CHAPTER_PATTERNS)
+        # Only use loose results if they produce a reasonable count
+        if 1 < len(all_chapters) <= MAX_REASONABLE_CHAPTERS:
+            chapters = all_chapters
+
+    # If still nothing, treat whole document as one chapter
+    if not chapters and len(text.split()) >= MIN_CHAPTER_WORDS:
+        chapters = [Chapter(number=1, title="Full Document", raw_text=text.strip())]
+
+    return chapters
+
+
+def _split_with_patterns(text: str, patterns: list) -> list[Chapter]:
+    """Split text using a specific set of regex patterns."""
     lines = text.split("\n")
     chapters: list[Chapter] = []
     current_title = ""
@@ -206,7 +234,7 @@ def _split_text_by_regex(text: str) -> list[Chapter]:
 
     for line in lines:
         stripped = line.strip()
-        if _matches_chapter_pattern(stripped):
+        if _matches_patterns(stripped, patterns):
             if current_lines and _word_count(current_lines) >= MIN_CHAPTER_WORDS:
                 chapter_num += 1
                 chapters.append(Chapter(
@@ -227,22 +255,19 @@ def _split_text_by_regex(text: str) -> list[Chapter]:
             raw_text="\n".join(current_lines).strip(),
         ))
 
-    # If regex found nothing, treat whole document as one chapter
-    if not chapters and len(text.split()) >= MIN_CHAPTER_WORDS:
-        chapters.append(Chapter(
-            number=1,
-            title="Full Document",
-            raw_text=text.strip(),
-        ))
-
     return chapters
 
 
 def _matches_chapter_pattern(text: str) -> bool:
     """Check if a line matches any chapter heading pattern."""
+    return _matches_patterns(text, CHAPTER_PATTERNS)
+
+
+def _matches_patterns(text: str, patterns: list) -> bool:
+    """Check if a line matches any of the given regex patterns."""
     if len(text) > 200:  # headings are short
         return False
-    return any(p.match(text) for p in CHAPTER_PATTERNS)
+    return any(p.match(text) for p in patterns)
 
 
 def _word_count(parts: list[str]) -> int:

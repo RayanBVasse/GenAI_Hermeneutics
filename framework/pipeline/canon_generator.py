@@ -79,7 +79,7 @@ def _build_canon_prompt(
 **Companion Mode:** {intake.companion_config.companion_mode}
 **Formality:** {intake.companion_config.formality}
 **Spoiler Policy:** {intake.companion_config.spoiler_policy}
-{"**Unanswered Questions:** " + intake.companion_config.unanswered_questions if intake.companion_config.unanswered_questions else ""}
+{"**Unanswered Questions:** " + "; ".join(intake.companion_config.unanswered_questions) if intake.companion_config.unanswered_questions else ""}
 
 ## CHAPTER CONTENT (high-signal excerpts)
 
@@ -177,7 +177,14 @@ def generate_canon_pack(
     """
     Generate a Canon Pack using Claude Sonnet.
     """
-    high_signal = get_high_signal_chunks(chunks, per_chapter=3)
+    # For very large books, reduce excerpts per chapter to keep prompt within token limits
+    if len(chapters) > 40:
+        per_ch = 1
+    elif len(chapters) > 20:
+        per_ch = 2
+    else:
+        per_ch = 3
+    high_signal = get_high_signal_chunks(chunks, per_chapter=per_ch)
     prompt = _build_canon_prompt(intake, chapters, high_signal)
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)

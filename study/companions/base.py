@@ -4,6 +4,7 @@ Both VanillaRAG and CanonPack companions share the same retrieval
 and generation pipeline -- only the system prompt differs.
 """
 
+import time
 from dataclasses import dataclass
 
 import anthropic
@@ -69,15 +70,31 @@ class BaseCompanion:
             f"READER QUESTION:\n{question}"
         )
 
-        # Stage 3: Generate (same model, temperature, max_tokens)
+        # Stage 3: Generate (same model, temperature, max_tokens) with rate-limit retry
         system_prompt = self.get_system_prompt()
-        response = self.client.messages.create(
-            model=COMPANION_MODEL,
-            max_tokens=COMPANION_MAX_TOKENS,
-            temperature=COMPANION_TEMPERATURE,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_message}],
-        )
+        response = None
+        for attempt in range(3):
+            try:
+                response = self.client.messages.create(
+                    model=COMPANION_MODEL,
+                    max_tokens=COMPANION_MAX_TOKENS,
+                    temperature=COMPANION_TEMPERATURE,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": user_message}],
+                )
+                break
+            except anthropic.RateLimitError:
+                wait = 60 * (attempt + 1)
+                print(f"    [RETRY] Rate limit hit. Waiting {wait}s...")
+                time.sleep(wait)
+        if response is None:
+            response = self.client.messages.create(
+                model=COMPANION_MODEL,
+                max_tokens=COMPANION_MAX_TOKENS,
+                temperature=COMPANION_TEMPERATURE,
+                system=system_prompt,
+                messages=[{"role": "user", "content": user_message}],
+            )
 
         return CompanionResponse(
             question=question,
