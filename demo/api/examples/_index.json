@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "meditations",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": "c. 170 CE",
+    "description": "Private philosophical journal of the Roman Emperor, exploring Stoic ethics, impermanence, and duty.",
+    "num_questions": 10,
+    "canon_wins": 9,
+    "vanilla_wins": 1
+  },
+  {
+    "slug": "the_art_of_war",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "year": "c. 5th century BCE",
+    "description": "Ancient Chinese treatise on military strategy, leadership, and the philosophy of conflict.",
+    "num_questions": 10,
+    "canon_wins": 10,
+    "vanilla_wins": 0
+  },
+  {
+    "slug": "content",
+    "title": "Content",
+    "author": "Cory Doctorow",
+    "year": "2008",
+    "description": "Essays on digital rights, copyright reform, and the future of creative work in the internet age.",
+    "num_questions": 10,
+    "canon_wins": 9,
+    "vanilla_wins": 1
+  },
+  {
+    "slug": "being_no_one",
+    "title": "Being No One",
+    "author": "Thomas Metzinger",
+    "year": "2003",
+    "description": "A theory of subjectivity exploring the self-model theory of consciousness and phenomenal experience.",
+    "num_questions": 10,
+    "canon_wins": 7,
+    "vanilla_wins": 3
+  },
+  {
+    "slug": "the_fourth_culture_identity_without_borders",
+    "title": "The Fourth Culture: Identity Without Borders",
+    "author": "Rayan B. Vasse",
+    "year": "2024",
+    "description": "An exploration of hybrid identity formation for those living between cultures, proposing a 'fourth culture' framework.",
+    "num_questions": 10,
+    "canon_wins": 9,
+    "vanilla_wins": 0
+  }
+]

@@ -1,0 +1,447 @@
+/* ── Base ── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #fafaf8;
+    --surface: #ffffff;
+    --border: #d4d0c8;
+    --text: #2c2c2c;
+    --text-muted: #6b6b6b;
+    --accent: #1a5276;
+    --accent-light: #2980b9;
+    --canon-bg: #eef6ee;
+    --canon-border: #4a8c5c;
+    --vanilla-bg: #f5f0e8;
+    --vanilla-border: #b8860b;
+    --win-bg: #d4edda;
+    --lose-bg: #f8f0e0;
+    --radius: 6px;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+a {
+    color: var(--accent-light);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ── Header ── */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border);
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.3rem;
+}
+
+.subtitle {
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.meta {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+/* ── Tabs ── */
+.mode-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border);
+}
+
+.tab {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-family: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    color: var(--text);
+}
+
+.tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
+}
+
+/* ── Mode panels ── */
+.mode-panel {
+    display: none;
+}
+
+.mode-panel.active {
+    display: block;
+}
+
+/* ── Book selector ── */
+.book-selector {
+    margin-bottom: 1.2rem;
+}
+
+.book-selector label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: var(--text-muted);
+    font-family: system-ui, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.book-selector select {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+}
+
+/* ── Book info card ── */
+.book-info {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+}
+
+.book-info h2 {
+    font-size: 1.15rem;
+    margin-bottom: 0.2rem;
+}
+
+.book-info .author {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.book-info .description {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+}
+
+.book-info .stats {
+    font-family: system-ui, sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.book-info .stats strong {
+    color: var(--text);
+}
+
+/* ── Examples list ── */
+.examples-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* ── Single example / comparison ── */
+.comparison {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.comparison-header {
+    padding: 0.8rem 1.2rem;
+    border-bottom: 1px solid var(--border);
+    background: #f7f6f3;
+}
+
+.comparison-header .question {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.comparison-header .category {
+    display: inline-block;
+    margin-top: 0.3rem;
+    font-family: system-ui, sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    background: var(--bg);
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+}
+
+.responses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+@media (max-width: 700px) {
+    .responses {
+        grid-template-columns: 1fr;
+    }
+}
+
+.response-col {
+    padding: 1rem 1.2rem;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    border-right: 1px solid var(--border);
+    position: relative;
+}
+
+.response-col:last-child {
+    border-right: none;
+}
+
+.response-col.vanilla {
+    background: var(--vanilla-bg);
+}
+
+.response-col.canon {
+    background: var(--canon-bg);
+}
+
+.response-label {
+    font-family: system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.response-col.vanilla .response-label {
+    color: var(--vanilla-border);
+}
+
+.response-col.canon .response-label {
+    color: var(--canon-border);
+}
+
+.winner-badge {
+    font-size: 0.65rem;
+    background: var(--canon-border);
+    color: #fff;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.response-text {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.response-text p {
+    margin-bottom: 0.6rem;
+}
+
+/* ── Scores bar ── */
+.scores-bar {
+    padding: 0.6rem 1.2rem;
+    border-top: 1px solid var(--border);
+    background: #f7f6f3;
+    font-family: system-ui, sans-serif;
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    color: var(--text-muted);
+}
+
+.score-item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.score-item .dim-name {
+    text-transform: capitalize;
+}
+
+.score-pair {
+    font-weight: 600;
+    color: var(--text);
+}
+
+/* ── Reasoning toggle ── */
+.reasoning-toggle {
+    padding: 0 1.2rem 0.8rem;
+    background: #f7f6f3;
+}
+
+.reasoning-toggle summary {
+    font-family: system-ui, sans-serif;
+    font-size: 0.78rem;
+    color: var(--accent-light);
+    cursor: pointer;
+}
+
+.reasoning-toggle .reasoning-text {
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    color: var(--text-muted);
+    line-height: 1.55;
+}
+
+/* ── Ask form ── */
+#ask-form {
+    margin-bottom: 1.2rem;
+}
+
+#ask-question {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    resize: vertical;
+    line-height: 1.5;
+}
+
+#ask-question:focus {
+    outline: none;
+    border-color: var(--accent-light);
+    box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.15);
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.counter {
+    font-family: system-ui, sans-serif;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+#ask-btn {
+    padding: 0.55rem 1.2rem;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    font-family: system-ui, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#ask-btn:hover {
+    background: var(--accent-light);
+}
+
+#ask-btn:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+/* ── Spinner ── */
+.spinner {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.spinner-dot {
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin: 0 auto 0.8rem;
+    animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.3; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* ── Error ── */
+.error-msg {
+    background: #fdf0f0;
+    border: 1px solid #e0b0b0;
+    border-radius: var(--radius);
+    padding: 0.8rem 1rem;
+    color: #9b2c2c;
+    font-size: 0.88rem;
+}
+
+/* ── Utility ── */
+.hidden {
+    display: none !important;
+}
+
+/* ── Footer ── */
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+footer p {
+    margin-bottom: 0.2rem;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon Pack Demo — GenAI Hermeneutics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Canon Pack vs Vanilla RAG</h1>
+        <p class="subtitle">Interactive demo — Structured Authorial Intent for GenAI Literary Companions</p>
+        <p class="meta">
+            <a href="https://github.com/RayanBVasse/GenAI_Hermeneutics" target="_blank">GitHub</a>
+        </p>
+    </header>
+
+    <nav class="mode-tabs">
+        <button class="tab active" data-mode="browse">Browse Examples</button>
+        <button class="tab" data-mode="ask">Try It Yourself</button>
+    </nav>
+
+    <main>
+        <!-- ============ BROWSE MODE ============ -->
+        <section id="browse-mode" class="mode-panel active">
+            <div class="book-selector">
+                <label for="book-select">Select a book:</label>
+                <select id="book-select">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+
+            <div id="book-info" class="book-info hidden"></div>
+
+            <div id="examples-list" class="examples-list"></div>
+        </section>
+
+        <!-- ============ ASK MODE ============ -->
+        <section id="ask-mode" class="mode-panel">
+            <div class="book-selector">
+                <label for="ask-book-select">Select a book:</label>
+                <select id="ask-book-select">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+
+            <form id="ask-form">
+                <textarea id="ask-question" placeholder="Ask a question about this book..." rows="3" minlength="10" maxlength="500" required></textarea>
+                <div class="form-footer">
+                    <span id="ask-counter" class="counter"></span>
+                    <button type="submit" id="ask-btn">Ask Both Companions</button>
+                </div>
+            </form>
+
+            <div id="ask-spinner" class="spinner hidden">
+                <div class="spinner-dot"></div>
+                <p>Generating responses... This may take 30-60 seconds on cold start.</p>
+            </div>
+
+            <div id="ask-result" class="comparison hidden"></div>
+
+            <div id="ask-error" class="error-msg hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Research demo for <em>Structured Authorial Intent for GenAI Literary Companions</em>.</p>
+        <p>Rayan B. Vasse &middot; 2024-2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
