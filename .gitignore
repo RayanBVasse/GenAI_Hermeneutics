@@ -11,12 +11,20 @@ dist/
 build/
 *.egg
 
+# Source manuscripts (not distributed — see data/books/README.md)
+data/books/*.docx
+data/books/*.pdf
+data/books/*.txt
+
 # Data artifacts (generated at runtime)
 data/vector_store/*.json
 data/canon_packs/*.json
 data/system_prompts/*.txt
 data/intake_forms/*_ai_draft*.json
 data/results/**/*.json
+
+# Build spec / instruction files
+MrCode_*.md
 
 # Keep directory structure
 !data/**/.gitkeep
