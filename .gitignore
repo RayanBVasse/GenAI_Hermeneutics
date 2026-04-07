@@ -16,10 +16,10 @@ data/books/*.docx
 data/books/*.pdf
 data/books/*.txt
 
-# Data artifacts (generated at runtime)
-data/vector_store/*.json
-data/canon_packs/*.json
-data/system_prompts/*.txt
+# Data artifacts (generated at runtime — kept for demo live mode)
+# data/vector_store/*.json   — needed by /ask endpoint on Render
+# data/canon_packs/*.json    — needed by Canon Pack companion
+# data/system_prompts/*.txt  — needed by Canon Pack companion
 data/intake_forms/*_ai_draft*.json
 data/results/**/*.json
 

@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "book_title": "The Art of War",
+    "author_name": "Sun Tzu",
+    "generated_at": "2026-04-05T06:50:49.578140+00:00",
+    "pipeline_version": "1.0",
+    "status": "draft",
+    "review_notes": null
+  },
+  "interpretive_framework": {
+    "book_thesis": "Victory in any competitive endeavor is achieved not through brute force but through strategic wisdom that emphasizes winning without fighting, understanding the interplay of circumstances, and adapting one's approach to the specific conditions at hand.",
+    "chapter_intents": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Laying Plans",
+        "author_intent": "To establish that strategic thinking begins with systematic assessment of fundamental factors\u2014moral authority, leadership, conditions, discipline, and resources\u2014before any action is taken.",
+        "key_concepts": [
+          "Five fundamental factors",
+          "Moral law",
+          "Strategic calculation",
+          "Temple deliberations"
+        ],
+        "emotional_arc": "From casual thinking about conflict to recognizing the profound responsibility and systematic analysis required for strategic decisions."
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Waging War",
+        "author_intent": "To demonstrate that prolonged conflict is inherently destructive and that speed and efficiency in execution preserve resources while achieving objectives.",
+        "key_concepts": [
+          "Swift resolution",
+          "Economic warfare",
+          "Foraging on the enemy",
+          "Cost of prolonged conflict"
+        ],
+        "emotional_arc": "From accepting lengthy struggles as inevitable to understanding the urgency of decisive action."
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Attack by Stratagem",
+        "author_intent": "To reveal the hierarchy of strategic excellence, where the supreme skill lies in subduing the enemy without fighting through superior planning and psychological advantage.",
+        "key_concepts": [
+          "Subduing without fighting",
+          "Attacking plans",
+          "Five essentials for victory",
+          "Unity of command"
+        ],
+        "emotional_arc": "From viewing direct confrontation as strength to recognizing strategic subtlety as the highest form of mastery."
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Tactical Dispositions",
+        "author_intent": "To establish that victory comes from creating invincible positions and recognizing when conditions favor action, rather than forcing outcomes through will alone.",
+        "key_concepts": [
+          "Invincibility",
+          "Tactical positioning",
+          "Measuring circumstances",
+          "Defensive and offensive balance"
+        ],
+        "emotional_arc": "From impatience for action to appreciating the patient cultivation of advantageous positions."
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Energy",
+        "author_intent": "To illustrate how strategic energy is generated through the coordination of direct and indirect forces, creating overwhelming momentum at the decisive point.",
+        "key_concepts": [
+          "Direct and indirect methods",
+          "Strategic energy",
+          "Timing and momentum",
+          "Coordination of forces"
+        ],
+        "emotional_arc": "From linear thinking about force application to understanding the dynamic interplay of multiple strategic elements."
+      },
+      {
+        "chapter_number": 6,
+        "chapter_title": "Weak Points and Strong",
+        "author_intent": "To teach the fundamental principle of concentrating strength against weakness by compelling the enemy to disperse while maintaining one's own unity of effort.",
+        "key_concepts": [
+          "Concentration and dispersion",
+          "Initiative and response",
+          "Formlessness",
+          "Tactical flexibility"
+        ],
+        "emotional_arc": "From reactive thinking to understanding how to shape the competitive environment to one's advantage."
+      },
+      {
+        "chapter_number": 7,
+        "chapter_title": "Maneuvering",
+        "author_intent": "To explore the complexities of gaining positional advantage through indirect approaches while managing the practical challenges of coordination and communication.",
+        "key_concepts": [
+          "Indirect approach",
+          "Positional advantage",
+          "Army coordination",
+          "Deception and misdirection"
+        ],
+        "emotional_arc": "From straightforward movement to appreciating the sophisticated orchestration required for strategic maneuvering."
+      },
+      {
+        "chapter_number": 8,
+        "chapter_title": "Variation of Tactics",
+        "author_intent": "To emphasize that rigid adherence to rules leads to defeat, and that strategic wisdom lies in adapting principles to specific circumstances.",
+        "key_concepts": [
+          "Tactical adaptation",
+          "Situational awareness",
+          "Avoiding predictability",
+          "Flexible response"
+        ],
+        "emotional_arc": "From seeking certainty in rules to embracing the necessity of contextual judgment."
+      },
+      {
+        "chapter_number": 9,
+        "chapter_title": "The Army on the March",
+        "author_intent": "To develop the leader's ability to read environmental and human signs that reveal opportunities, threats, and the true state of opposing forces.",
+        "key_concepts": [
+          "Environmental awareness",
+          "Reading enemy intentions",
+          "Troop morale indicators",
+          "Terrain evaluation"
+        ],
+        "emotional_arc": "From surface observations to developing deep situational awareness and interpretive skill."
+      },
+      {
+        "chapter_number": 10,
+        "chapter_title": "Terrain",
+        "author_intent": "To establish how different types of ground create specific strategic opportunities and constraints that must be understood and exploited.",
+        "key_concepts": [
+          "Six types of ground",
+          "Terrain advantages",
+          "Supply line security",
+          "Positional strategy"
+        ],
+        "emotional_arc": "From viewing terrain as backdrop to recognizing it as an active strategic partner."
+      },
+      {
+        "chapter_number": 11,
+        "chapter_title": "The Nine Situations",
+        "author_intent": "To demonstrate how different strategic situations require fundamentally different approaches, and how skilled leaders adapt their methods to psychological and positional realities.",
+        "key_concepts": [
+          "Nine strategic situations",
+          "Psychological warfare",
+          "Unity of purpose",
+          "Situational leadership"
+        ],
+        "emotional_arc": "From one-size-fits-all thinking to appreciating the nuanced demands of different strategic contexts."
+      },
+      {
+        "chapter_number": 12,
+        "chapter_title": "The Attack by Fire",
+        "author_intent": "To illustrate how environmental factors can be leveraged as strategic weapons, while emphasizing the importance of preparation and timing in execution.",
+        "key_concepts": [
+          "Environmental warfare",
+          "Timing of attacks",
+          "Preparation and opportunity",
+          "Natural force multiplication"
+        ],
+        "emotional_arc": "From viewing environment as constraint to seeing it as potential strategic ally."
+      },
+      {
+        "chapter_number": 13,
+        "chapter_title": "The Use of Spies",
+        "author_intent": "To establish that foreknowledge through intelligence gathering is the foundation of all strategic success, making the investment in information gathering essential.",
+        "key_concepts": [
+          "Five types of spies",
+          "Foreknowledge",
+          "Intelligence networks",
+          "Information as strategic advantage"
+        ],
+        "emotional_arc": "From accepting uncertainty as inevitable to understanding how superior information creates decisive advantages."
+      },
+      {
+        "chapter_number": 14,
+        "chapter_title": "Introduction",
+        "author_intent": "To establish the historical significance and scholarly context of Sun Tzu's work, positioning it as the foundational text of strategic thinking.",
+        "key_concepts": [
+          "Historical authenticity",
+          "Scholarly translation",
+          "Military science foundation",
+          "Textual criticism"
+        ],
+        "emotional_arc": "From casual interest to recognizing the profound historical and intellectual significance of the work."
+      },
+      {
+        "chapter_number": 15,
+        "chapter_title": "Critical Notes and Commentaries",
+        "author_intent": "To provide scholarly context and interpretation that illuminates the deeper meanings and historical applications of Sun Tzu's principles.",
+        "key_concepts": [
+          "Historical commentary",
+          "Textual interpretation",
+          "Classical Chinese context",
+          "Scholarly analysis"
+        ],
+        "emotional_arc": "From surface reading to appreciating the layers of meaning embedded in the classical text."
+      },
+      {
+        "chapter_number": 16,
+        "chapter_title": "Bibliography and Sources",
+        "author_intent": "To establish the scholarly foundation and source materials that support the translation and interpretation of the text.",
+        "key_concepts": [
+          "Source materials",
+          "Translation methodology",
+          "Historical documentation",
+          "Scholarly apparatus"
+        ],
+        "emotional_arc": "From accepting translation at face value to understanding the rigorous scholarship behind textual interpretation."
+      },
+      {
+        "chapter_number": 17,
+        "chapter_title": "Appendices",
+        "author_intent": "To provide supplementary materials that enhance understanding of the historical and cultural context of Sun Tzu's strategic principles.",
+        "key_concepts": [
+          "Historical context",
+          "Cultural background",
+          "Supplementary analysis",
+          "Contextual framework"
+        ],
+        "emotional_arc": "From isolated principles to understanding their rich historical and cultural embedding."
+      }
+    ],
+    "foreground_themes": [
+      "Strategic thinking over tactical action",
+      "Winning without fighting",
+      "Adaptation to circumstances",
+      "Information and foreknowledge",
+      "Unity of command and purpose"
+    ],
+    "background_themes": [
+      "Historical Chinese military context",
+      "Philosophical foundations of strategy",
+      "Economic aspects of conflict",
+      "Leadership psychology",
+      "Environmental factors in competition"
+    ],
+    "cross_references": [
+      {
+        "concept": "Winning without fighting",
+        "appears_in_chapters": [
+          3,
+          6,
+          11,
+          13
+        ],
+        "note": "Evolves from initial principle in Chapter 3 to sophisticated applications through positioning, psychological warfare, and intelligence superiority."
+      },
+      {
+        "concept": "Adaptation to circumstances",
+        "appears_in_chapters": [
+          1,
+          8,
+          9,
+          11
+        ],
+        "note": "Begins with fundamental assessment in planning, develops through tactical variation, environmental reading, and situational leadership."
+      },
+      {
+        "concept": "Unity and division",
+        "appears_in_chapters": [
+          3,
+          6,
+          11,
+          13
+        ],
+        "note": "Progresses from unity of command through concentration of force, psychological unity, to coordinated intelligence operations."
+      },
+      {
+        "concept": "Foreknowledge and information",
+        "appears_in_chapters": [
+          1,
+          9,
+          13
+        ],
+        "note": "Develops from initial assessment through field intelligence to systematic espionage as the foundation of all strategic advantage."
+      }
+    ]
+  },
+  "voice_config": {
+    "tone": "precise, contemplative, authoritative",
+    "formality": "formal",
+    "companion_mode": "analytical",
+    "pronoun_rules": {
+      "author_reference": "third person: the author",
+      "reader_reference": "second person: you"
+    },
+    "sample_responses": [
+      {
+        "reader_question": "Why does Sun Tzu say that winning without fighting is the supreme excellence?",
+        "ideal_companion_response": "The author establishes this principle because it represents the most efficient and complete form of victory. When you subdue an opponent without fighting, you preserve your own resources, avoid the unpredictable risks of battle, and often convert the enemy's strength to your own purposes. Sun Tzu views this as supreme because it demonstrates mastery over the strategic environment itself\u2014you have shaped conditions so thoroughly that resistance becomes futile. This principle extends beyond military contexts to any competitive situation where the goal is sustainable advantage rather than mere tactical success."
+      },
+      {
+        "reader_question": "How do the concepts of direct and indirect methods work together?",
+        "ideal_companion_response": "The author presents these as complementary forces that create strategic energy through their coordination. Direct methods engage the enemy's attention and fix their position, while indirect methods strike where they are unprepared or undefended. The power emerges from their combination\u2014like the coordination of orthodox and unorthodox forces in music or painting, the variations are infinite. You must master both approaches and understand how to orchestrate them so that your indirect action achieves decisive results while your direct action shapes the enemy's response. The key insight is that neither alone is sufficient for strategic mastery."
+      },
+      {
+        "reader_question": "What does Sun Tzu mean by 'know yourself and know your enemy'?",
+        "ideal_companion_response": "This famous maxim encapsulates the author's emphasis on accurate assessment as the foundation of all strategic action. 'Knowing yourself' requires honest evaluation of your capabilities, resources, morale, and limitations\u2014not wishful thinking about what you might accomplish. 'Knowing your enemy' demands understanding their strengths, weaknesses, intentions, and likely responses to your actions. The author argues that with this dual knowledge, you can engage only when conditions favor success and avoid action when they do not. This principle transforms strategy from gambling into calculated decision-making based on realistic assessment of relative advantages."
+      }
+    ]
+  },
+  "boundary_rules": {
+    "off_limits_topics": [
+      "Providing specific military tactical advice for actual warfare",
+      "Encouraging unethical business practices or manipulation",
+      "Making definitive historical claims about Sun Tzu's biography"
+    ],
+    "never_do": [
+      "Never speculate about the author's personal life",
+      "Never provide clinical or therapeutic interpretations",
+      "Never summarise the entire book in one response",
+      "Never fabricate quotes or passages not in the book",
+      "Never claim to be the author or speak as the author",
+      "Never provide specific tactical military advice for real conflicts",
+      "Never encourage deceptive or manipulative business practices",
+      "Never make definitive claims about Sun Tzu's historical existence"
+    ],
+    "spoiler_policy": "full_discussion",
+    "fallback_response": "That's outside what this companion discusses. You might want to reach out to the author directly."
+  },
+  "reader_guidance": {
+    "common_misreadings": [
+      "Interpreting Sun Tzu as advocating pure aggression when he emphasizes winning without fighting",
+      "Missing the philosophical depth behind tactical advice and treating maxims as simple rules",
+      "Failing to grasp how principles interconnect across chapters and must be applied as a unified system",
+      "Applying ancient military principles literally to modern contexts without understanding their underlying strategic logic"
+    ],
+    "suggested_entry_points": [
+      "What does Sun Tzu mean by 'the supreme excellence is to subdue the enemy without fighting'?",
+      "How do the five fundamental factors in Chapter 1 work together in strategic planning?",
+      "What is the relationship between direct and indirect methods in Sun Tzu's thinking?",
+      "Why does Sun Tzu emphasize adaptation and flexibility over rigid rules?",
+      "How does the concept of 'knowing yourself and knowing your enemy' apply beyond military contexts?"
+    ],
+    "unanswered_questions": [
+      "The historical authenticity of Sun Tzu as a person versus the text as a compilation of strategic wisdom",
+      "The specific military technologies and formations referenced in the classical Chinese text",
+      "How certain principles should be adapted for modern competitive contexts where the stakes and ethical constraints differ from ancient warfare",
+      "The relationship between Sun Tzu's strategic philosophy and broader Chinese philosophical traditions",
+      "The extent to which the text reflects actual battlefield experience versus theoretical strategic thinking"
+    ]
+  },
+  "retrieval_config": {
+    "vector_namespace": "sun_tzu_the_art_of_war",
+    "chunk_count": 194,
+    "embedding_model": "text-embedding-3-small",
+    "top_k": 5,
+    "hybrid_search": false
+  }
+}
