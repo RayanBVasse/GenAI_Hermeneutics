@@ -80,14 +80,24 @@ def export_book(slug: str, meta: dict) -> dict | None:
         qid = c["question_id"]
         ev = eval_lookup.get(qid, {})
 
+        # Remap score keys from source (vanilla_rag) to display (baseline_rag)
+        raw_scores = ev.get("scores", {})
+        scores = {}
+        for k, v in raw_scores.items():
+            scores["baseline_rag" if k == "vanilla_rag" else k] = v
+
+        winner = ev.get("winner_condition", "")
+        if winner == "vanilla_rag":
+            winner = "baseline_rag"
+
         examples.append({
             "question_id": qid,
             "question": c["question"],
             "category": c["category"],
-            "vanilla_rag_response": c.get("response_A") if _is_vanilla(comp, c, "A") else c.get("response_B"),
+            "baseline_rag_response": c.get("response_A") if _is_vanilla(comp, c, "A") else c.get("response_B"),
             "canon_pack_response": c.get("response_B") if _is_vanilla(comp, c, "A") else c.get("response_A"),
-            "scores": ev.get("scores", {}),
-            "winner": ev.get("winner_condition", ""),
+            "scores": scores,
+            "winner": winner,
             "reasoning": ev.get("reasoning", ""),
         })
 
@@ -100,18 +110,24 @@ def export_book(slug: str, meta: dict) -> dict | None:
 
     if analysis:
         result["summary"] = {
-            "wins": analysis.get("wins", {}),
-            "dimensions": analysis.get("dimensions", {}),
-            "composite": analysis.get("composite", {}),
+            "wins": _remap_keys(analysis.get("wins", {})),
+            "dimensions": {k: _remap_keys(v) if isinstance(v, dict) else v
+                           for k, v in analysis.get("dimensions", {}).items()},
+            "composite": _remap_keys(analysis.get("composite", {})),
         }
 
     return result
 
 
+def _remap_keys(d: dict) -> dict:
+    """Rename vanilla_rag -> baseline_rag in dict keys."""
+    return {("baseline_rag" if "vanilla_rag" in k else k): v for k, v in d.items()}
+
+
 def _is_vanilla(comp: dict, comparison: dict, label: str) -> bool:
     """
-    Determine if response_A is vanilla_rag.
-    We check the condition key file, or fall back to heuristic (vanilla is shorter).
+    Determine if response_A is the baseline (vanilla_rag in source data).
+    We check the condition key file, or fall back to heuristic.
     """
     book_dir = RESULTS_DIR / comp["book_slug"]
     key_path = book_dir / "_condition_key.json"
@@ -120,9 +136,9 @@ def _is_vanilla(comp: dict, comparison: dict, label: str) -> bool:
         qid = str(comparison["question_id"])
         mapping = key.get(qid, key.get(comparison["question_id"], {}))
         if mapping:
-            return mapping.get("A") == "vanilla_rag"
+            return mapping.get("A") == "vanilla_rag"  # source data uses vanilla_rag
 
-    # Fallback heuristic: vanilla responses tend to be shorter
+    # Fallback heuristic: baseline responses tend to be shorter
     a_len = len(comparison.get("response_A", ""))
     b_len = len(comparison.get("response_B", ""))
     return a_len < b_len
@@ -147,7 +163,7 @@ def main():
                 "description": meta["description"],
                 "num_questions": len(result["examples"]),
                 "canon_wins": result.get("summary", {}).get("wins", {}).get("canon_pack", 0),
-                "vanilla_wins": result.get("summary", {}).get("wins", {}).get("vanilla_rag", 0),
+                "baseline_wins": result.get("summary", {}).get("wins", {}).get("baseline_rag", 0),
             })
 
     # Write index

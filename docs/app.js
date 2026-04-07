@@ -96,8 +96,8 @@ function renderBookInfo(data) {
         <p class="description">${esc(data.description)}</p>
         <div class="stats">
             <span>Questions: <strong>${data.num_questions}</strong></span>
-            <span>Canon Pack wins: <strong>${wins.canon_pack || 0}</strong></span>
-            <span>Vanilla RAG wins: <strong>${wins.vanilla_rag || 0}</strong></span>
+            <span>Canon Pack: <strong>${wins.canon_pack || 0}</strong></span>
+            <span>Baseline RAG: <strong>${wins.baseline_rag || 0}</strong></span>
             ${comp.cohens_d != null ? `<span>Effect size (d): <strong>${comp.cohens_d.toFixed(2)}</strong></span>` : ""}
         </div>
     `;
@@ -121,10 +121,10 @@ function renderComparison(ex) {
         <div class="responses">
             <div class="response-col vanilla">
                 <div class="response-label">
-                    Vanilla RAG
-                    ${!isCanonWinner && ex.winner === "vanilla_rag" ? '<span class="winner-badge" style="background:var(--vanilla-border)">Winner</span>' : ""}
+                    Baseline RAG
+                    ${!isCanonWinner && ex.winner === "baseline_rag" ? '<span class="winner-badge" style="background:var(--vanilla-border)">Winner</span>' : ""}
                 </div>
-                <div class="response-text">${formatResponse(ex.vanilla_rag_response)}</div>
+                <div class="response-text">${formatResponse(ex.baseline_rag_response)}</div>
             </div>
             <div class="response-col canon">
                 <div class="response-label">
@@ -144,13 +144,13 @@ function renderComparison(ex) {
 }
 
 function renderScoresBar(scores) {
-    if (!scores.vanilla_rag && !scores.canon_pack) return "";
+    if (!scores.baseline_rag && !scores.canon_pack) return "";
 
     const dims = ["textual_grounding", "interpretive_depth", "voice_consistency", "boundary_respect", "cross_reference"];
     const items = dims
-        .filter((d) => scores.vanilla_rag && scores.vanilla_rag[d] != null)
+        .filter((d) => scores.baseline_rag && scores.baseline_rag[d] != null)
         .map((d) => {
-            const v = scores.vanilla_rag[d];
+            const v = scores.baseline_rag[d];
             const c = scores.canon_pack[d];
             const label = d.replace(/_/g, " ");
             return `<span class="score-item">
@@ -234,8 +234,8 @@ function renderAskResult(data) {
     </div>
     <div class="responses">
         <div class="response-col vanilla">
-            <div class="response-label">Vanilla RAG</div>
-            <div class="response-text">${formatResponse(data.vanilla_rag_response)}</div>
+            <div class="response-label">Baseline RAG</div>
+            <div class="response-text">${formatResponse(data.baseline_rag_response)}</div>
         </div>
         <div class="response-col canon">
             <div class="response-label">Canon Pack</div>

@@ -417,6 +417,23 @@ header h1 {
     50% { opacity: 1; transform: scale(1.2); }
 }
 
+/* ── Cold-start notice ── */
+.cold-start-notice {
+    background: #fff8e8;
+    border: 1px solid #e0d0a0;
+    border-radius: var(--radius);
+    padding: 0.7rem 1rem;
+    margin-bottom: 1.2rem;
+    font-family: system-ui, sans-serif;
+    font-size: 0.82rem;
+    color: #6b5a2a;
+    line-height: 1.5;
+}
+
+.cold-start-notice strong {
+    color: #4a3d1a;
+}
+
 /* ── Error ── */
 .error-msg {
     background: #fdf0f0;

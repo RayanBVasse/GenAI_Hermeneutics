@@ -94,7 +94,7 @@ class AskRequest(BaseModel):
 
 class AskResponse(BaseModel):
     question: str
-    vanilla_rag_response: str
+    baseline_rag_response: str
     canon_pack_response: str
     retrieved_chunks: list[dict]
 
@@ -181,7 +181,7 @@ def ask_question(req: AskRequest, request: Request):
 
         return AskResponse(
             question=req.question,
-            vanilla_rag_response=vanilla_resp.answer,
+            baseline_rag_response=vanilla_resp.answer,
             canon_pack_response=canon_resp.answer,
             retrieved_chunks=vanilla_resp.retrieved_chunks,
         )
