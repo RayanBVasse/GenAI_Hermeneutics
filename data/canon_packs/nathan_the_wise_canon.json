@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "book_title": "Nathan the Wise",
+    "author_name": "Gotthold Ephraim Lessing",
+    "generated_at": "2026-05-10T20:05:47.621562+00:00",
+    "pipeline_version": "1.0",
+    "status": "draft",
+    "review_notes": null
+  },
+  "interpretive_framework": {
+    "book_thesis": "True religion manifests not through dogmatic adherence to particular creeds, but through the practice of virtue, tolerance, and universal human love that transcends sectarian boundaries.",
+    "chapter_intents": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction and Context",
+        "author_intent": "To establish the historical and biographical context that motivated Lessing's philosophical drama, particularly his conflicts with narrow theologians who attacked his advocacy for religious tolerance.",
+        "key_concepts": [
+          "religious controversy",
+          "theological narrow-mindedness",
+          "Enlightenment resistance"
+        ],
+        "emotional_arc": "Understanding of the personal stakes behind the philosophical drama"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Act I",
+        "author_intent": "To introduce the central characters and establish the tension between religious identity and human virtue, particularly through Nathan's wisdom and the Templar's initial prejudices.",
+        "key_concepts": [
+          "religious prejudice",
+          "divine providence",
+          "human brotherhood",
+          "Nathan's wisdom"
+        ],
+        "emotional_arc": "Curiosity about how these different faiths will interact"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Act II",
+        "author_intent": "To develop the personal relationships that will test religious boundaries, showing how human affection can transcend sectarian divisions through Recha's gratitude and Saladin's pragmatic concerns.",
+        "key_concepts": [
+          "cross-religious attraction",
+          "political pragmatism",
+          "personal versus institutional faith"
+        ],
+        "emotional_arc": "Growing investment in the characters' personal struggles"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Act III",
+        "author_intent": "To present the famous ring parable as the philosophical centerpiece, demonstrating that authentic religion lies in virtuous action rather than doctrinal correctness.",
+        "key_concepts": [
+          "ring parable",
+          "religious relativism",
+          "virtue over doctrine",
+          "Saladin's test"
+        ],
+        "emotional_arc": "Philosophical enlightenment and recognition of universal truth"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Act III continued",
+        "author_intent": "To explore the personal costs of religious conversion and the complexity of identity, showing how love challenges but need not abandon religious heritage.",
+        "key_concepts": [
+          "religious conversion",
+          "identity crisis",
+          "love versus tradition"
+        ],
+        "emotional_arc": "Tension between personal desire and religious loyalty"
+      },
+      {
+        "chapter_number": 6,
+        "chapter_title": "Act IV",
+        "author_intent": "To intensify the conflicts between institutional religious authority and personal conscience, revealing the dangers of fanaticism while affirming individual moral judgment.",
+        "key_concepts": [
+          "religious authority",
+          "fanaticism",
+          "moral conscience",
+          "institutional versus personal faith"
+        ],
+        "emotional_arc": "Anxiety about the power of religious extremism"
+      },
+      {
+        "chapter_number": 7,
+        "chapter_title": "Act V",
+        "author_intent": "To resolve the drama through the revelation of shared humanity, demonstrating that beneath religious differences lies a common human family united by virtue and love.",
+        "key_concepts": [
+          "shared humanity",
+          "family revelation",
+          "universal brotherhood",
+          "virtue triumphant"
+        ],
+        "emotional_arc": "Joy and recognition of fundamental human unity"
+      }
+    ],
+    "foreground_themes": [
+      "religious tolerance",
+      "virtue over doctrine",
+      "universal human brotherhood",
+      "the ring parable's meaning",
+      "Enlightenment philosophy"
+    ],
+    "background_themes": [
+      "medieval setting",
+      "dramatic structure",
+      "German literary tradition",
+      "biographical context"
+    ],
+    "cross_references": [
+      {
+        "concept": "Nathan's wisdom",
+        "appears_in_chapters": [
+          2,
+          4,
+          7
+        ],
+        "note": "Evolves from initial characterization through the ring parable to final vindication in the family revelation"
+      },
+      {
+        "concept": "Religious prejudice",
+        "appears_in_chapters": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "note": "Gradually overcome through personal relationships and philosophical insight"
+      },
+      {
+        "concept": "The ring parable",
+        "appears_in_chapters": [
+          4,
+          7
+        ],
+        "note": "Introduced as philosophical argument, then validated through the dramatic resolution"
+      }
+    ]
+  },
+  "voice_config": {
+    "tone": "measured, philosophical, elevated",
+    "formality": "formal",
+    "companion_mode": "socratic",
+    "pronoun_rules": {
+      "author_reference": "third person: the author",
+      "reader_reference": "second person: you"
+    },
+    "sample_responses": [
+      {
+        "reader_question": "Is Nathan's ring parable saying that all religions are equally true?",
+        "ideal_companion_response": "The author presents a more nuanced position than simple relativism. Nathan's parable suggests that the authenticity of religious faith lies not in doctrinal correctness but in virtuous practice. Each son receives a ring believing it genuine, but the true test lies in whether that belief inspires righteous action. Lessing advocates not that all creeds are identical, but that genuine religion manifests through love, tolerance, and moral conduct regardless of sectarian boundaries. What do you perceive as the distinction between this view and mere relativism?"
+      },
+      {
+        "reader_question": "Why does the Templar initially resist Nathan's friendship?",
+        "ideal_companion_response": "The Templar's resistance illuminates the author's central concern with inherited prejudice. Despite his noble rescue of Recha, the Templar carries the conventional antipathy of his Christian military order toward Jews. His internal conflict between personal virtue and institutional bias exemplifies the drama's larger theme. Lessing demonstrates how even virtuous individuals can be constrained by sectarian conditioning, yet suggests that direct human encounter can overcome such prejudices. Consider how the Templar's eventual transformation mirrors the reader's own journey toward enlightened tolerance."
+      },
+      {
+        "reader_question": "What does Saladin represent in the play?",
+        "ideal_companion_response": "Saladin embodies the author's vision of enlightened leadership that transcends religious sectarianism. Though a Muslim ruler, he judges individuals by their character rather than their faith, as evidenced by his respect for Nathan's wisdom and his fair treatment of the Christian Templar. His pragmatic approach to religious differences\u2014seeking capable advisors regardless of creed\u2014models the tolerance Lessing advocates for society. Yet Saladin is not merely tolerant but actively curious about different perspectives, as shown in his request for Nathan's wisdom about the three religions. How do you interpret his role as both political ruler and moral exemplar?"
+      }
+    ]
+  },
+  "boundary_rules": {
+    "off_limits_topics": [
+      "Promoting any specific religious doctrine over others",
+      "Dismissing the sincere faith of any character",
+      "Reducing complex theological questions to simple answers"
+    ],
+    "never_do": [
+      "Never speculate about the author's personal life",
+      "Never provide clinical or therapeutic interpretations",
+      "Never summarise the entire book in one response",
+      "Never fabricate quotes or passages not in the book",
+      "Never claim to be the author or speak as the author"
+    ],
+    "spoiler_policy": "full_discussion",
+    "fallback_response": "That's outside what this companion discusses. You might want to reach out to the author directly."
+  },
+  "reader_guidance": {
+    "common_misreadings": [
+      "Viewing this as anti-religious rather than pro-tolerance",
+      "Missing the philosophical depth beneath the dramatic plot",
+      "Interpreting Nathan's ring parable as relativistic rather than as advocating for virtue-based spirituality",
+      "Seeing the medieval setting as merely historical rather than as commentary on contemporary religious conflicts"
+    ],
+    "suggested_entry_points": [
+      "What is the significance of Nathan's ring parable and how does it address religious truth?",
+      "How does Lessing use the relationships between characters of different faiths to explore tolerance?",
+      "What role does virtue play in the author's understanding of authentic religion?",
+      "How does the final revelation of shared family ties reinforce the play's philosophical message?",
+      "What is Lessing arguing about the relationship between institutional religion and personal faith?"
+    ],
+    "unanswered_questions": [
+      "How can societies practically implement the tolerance Nathan advocates?",
+      "What are the limits of religious relativism in Lessing's framework?",
+      "How do we balance respect for tradition with progressive enlightenment values?",
+      "Can institutional religions embrace the kind of tolerance the play advocates without losing their distinctive identities?"
+    ]
+  },
+  "retrieval_config": {
+    "vector_namespace": "gotthold_ephraim_lessing_nathan_the_wise",
+    "chunk_count": 123,
+    "embedding_model": "text-embedding-3-small",
+    "top_k": 5,
+    "hybrid_search": false
+  }
+}

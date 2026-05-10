@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "book_title": "The Souls of Black Folk",
+    "author_name": "W. E. B. Du Bois",
+    "generated_at": "2026-05-10T20:03:48.711128+00:00",
+    "pipeline_version": "1.0",
+    "status": "draft",
+    "review_notes": null
+  },
+  "interpretive_framework": {
+    "book_thesis": "Du Bois reveals how American racism creates a psychological 'double consciousness' in Black Americans\u2014forcing them to see themselves through hostile white eyes\u2014while arguing that true racial progress requires both political rights and higher education, not the accommodationist submission advocated by Booker T. Washington.",
+    "chapter_intents": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Of Our Spiritual Strivings",
+        "author_intent": "To introduce the foundational concept of double consciousness and the veil, establishing the psychological framework for understanding the Black American experience of living simultaneously as both American and Negro in a hostile world.",
+        "key_concepts": [
+          "double consciousness",
+          "the veil",
+          "second-sight",
+          "twoness",
+          "spiritual strivings"
+        ],
+        "emotional_arc": "From confusion and pain to recognition and understanding of the divided self"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Of the Dawn of Freedom",
+        "author_intent": "To examine the Freedmen's Bureau as both promise and failure, showing how Reconstruction's collapse left Black Americans caught between slavery's end and freedom's unfulfillment.",
+        "key_concepts": [
+          "Freedmen's Bureau",
+          "Reconstruction",
+          "freedom deferred",
+          "institutional failure"
+        ],
+        "emotional_arc": "From hope through disillusionment to sobering realism about systemic obstacles"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Of Mr. Booker T. Washington and Others",
+        "author_intent": "To critique Washington's accommodationist philosophy as a dangerous surrender of fundamental rights, while positioning Du Bois's own vision of protest and higher education as the necessary alternative.",
+        "key_concepts": [
+          "Atlanta Compromise",
+          "accommodationism",
+          "industrial education",
+          "political rights",
+          "protest leadership"
+        ],
+        "emotional_arc": "From respectful disagreement to urgent moral conviction about the stakes of leadership"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Of the Meaning of Progress",
+        "author_intent": "To illustrate through personal narrative how education transforms individuals and communities, while showing the tragic limits imposed by racial violence and economic oppression.",
+        "key_concepts": [
+          "education as liberation",
+          "rural Black life",
+          "progress and regression",
+          "individual transformation"
+        ],
+        "emotional_arc": "From hope and achievement to heartbreak over lives cut short by systemic racism"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Of the Wings of Atalanta",
+        "author_intent": "To argue that the South's obsession with material wealth corrupts both races, while advocating for universities as centers of higher culture and moral development.",
+        "key_concepts": [
+          "materialism vs. idealism",
+          "higher education",
+          "cultural development",
+          "moral corruption"
+        ],
+        "emotional_arc": "From critique of shallow materialism to elevation through the vision of true education"
+      },
+      {
+        "chapter_number": 6,
+        "chapter_title": "Of the Training of Black Men",
+        "author_intent": "To defend classical liberal education against industrial training advocates, arguing that the Talented Tenth requires broad cultural knowledge to lead their people effectively.",
+        "key_concepts": [
+          "Talented Tenth",
+          "classical education",
+          "leadership development",
+          "cultural knowledge"
+        ],
+        "emotional_arc": "From defensive justification to confident assertion of intellectual equality and leadership potential"
+      },
+      {
+        "chapter_number": 7,
+        "chapter_title": "Of the Black Belt",
+        "author_intent": "To expose the economic exploitation and social control mechanisms that maintain Black subjugation in the rural South through detailed regional analysis.",
+        "key_concepts": [
+          "sharecropping",
+          "economic exploitation",
+          "rural oppression",
+          "systemic control"
+        ],
+        "emotional_arc": "From geographical description to moral outrage at systematic exploitation"
+      },
+      {
+        "chapter_number": 8,
+        "chapter_title": "Of the Quest of the Golden Fleece",
+        "author_intent": "To trace how cotton cultivation and economic greed created and perpetuated racial oppression, connecting historical slavery to contemporary exploitation.",
+        "key_concepts": [
+          "cotton economy",
+          "economic determinism",
+          "historical continuity",
+          "greed and exploitation"
+        ],
+        "emotional_arc": "From historical analysis to present-day condemnation of economic injustice"
+      },
+      {
+        "chapter_number": 9,
+        "chapter_title": "Of the Sons of Master and Man",
+        "author_intent": "To analyze how the breakdown of paternalistic relationships between races has led to increased hostility and violence, while showing the human cost of racial separation.",
+        "key_concepts": [
+          "racial separation",
+          "breakdown of paternalism",
+          "mutual hostility",
+          "social distance"
+        ],
+        "emotional_arc": "From nostalgia for lost intimacy to alarm at growing racial hatred"
+      },
+      {
+        "chapter_number": 10,
+        "chapter_title": "Of the Faith of the Fathers",
+        "author_intent": "To trace the evolution of Black religion from African origins through slavery to freedom, showing how faith has been both refuge and source of resistance.",
+        "key_concepts": [
+          "Black church",
+          "religious evolution",
+          "spiritual resistance",
+          "cultural continuity"
+        ],
+        "emotional_arc": "From cultural loss through adaptation to spiritual triumph and community building"
+      },
+      {
+        "chapter_number": 11,
+        "chapter_title": "Of the Passing of the First-Born",
+        "author_intent": "To reveal through deeply personal grief how racism poisons even the most intimate family experiences, showing that no Black person can escape the veil's shadow.",
+        "key_concepts": [
+          "personal grief",
+          "racism's intimate reach",
+          "parental love",
+          "the veil's universality"
+        ],
+        "emotional_arc": "From tender love through devastating loss to profound understanding of racism's totality"
+      },
+      {
+        "chapter_number": 12,
+        "chapter_title": "Of Alexander Crummell",
+        "author_intent": "To honor a model of Black intellectual leadership while showing how even the most accomplished face racial barriers, illustrating the need for persistent struggle.",
+        "key_concepts": [
+          "intellectual leadership",
+          "persistent struggle",
+          "racial barriers",
+          "moral exemplar"
+        ],
+        "emotional_arc": "From admiration through recognition of obstacles to inspiration for continued fight"
+      },
+      {
+        "chapter_number": 13,
+        "chapter_title": "Of the Coming of John",
+        "author_intent": "To dramatize through allegory how education creates consciousness that makes accommodation impossible, leading inevitably to tragic conflict with white supremacy.",
+        "key_concepts": [
+          "education and consciousness",
+          "tragic inevitability",
+          "white supremacy",
+          "impossible return"
+        ],
+        "emotional_arc": "From hope through awakening to tragic recognition of irreconcilable conflict"
+      },
+      {
+        "chapter_number": 14,
+        "chapter_title": "Of the Sorrow Songs",
+        "author_intent": "To celebrate the spiritual songs as America's greatest cultural contribution while showing how they express the deepest truths about the Black experience and American democracy.",
+        "key_concepts": [
+          "sorrow songs",
+          "cultural contribution",
+          "spiritual expression",
+          "American democracy"
+        ],
+        "emotional_arc": "From cultural pride through spiritual depth to prophetic vision of America's potential"
+      },
+      {
+        "chapter_number": 15,
+        "chapter_title": "The Afterthought",
+        "author_intent": "To conclude with a prophetic vision that calls America to fulfill its democratic promise by embracing rather than rejecting its Black citizens.",
+        "key_concepts": [
+          "prophetic vision",
+          "democratic promise",
+          "national redemption",
+          "moral choice"
+        ],
+        "emotional_arc": "From summary reflection to prophetic challenge and hopeful vision"
+      }
+    ],
+    "foreground_themes": [
+      "double consciousness and the veil",
+      "critique of accommodationism",
+      "the Talented Tenth and higher education",
+      "economic exploitation and systemic racism",
+      "spiritual and cultural resistance"
+    ],
+    "background_themes": [
+      "gender dynamics",
+      "class distinctions within Black communities",
+      "regional differences",
+      "international comparisons",
+      "specific policy details"
+    ],
+    "cross_references": [
+      {
+        "concept": "double consciousness",
+        "appears_in_chapters": [
+          1,
+          11,
+          13
+        ],
+        "note": "Introduced as psychological theory, experienced personally through grief, and dramatized through John's tragic awakening"
+      },
+      {
+        "concept": "the veil",
+        "appears_in_chapters": [
+          1,
+          11,
+          13,
+          14
+        ],
+        "note": "Evolves from metaphor for racial separation to intimate family experience to tragic barrier to spiritual transcendence in the sorrow songs"
+      },
+      {
+        "concept": "education and leadership",
+        "appears_in_chapters": [
+          3,
+          4,
+          5,
+          6,
+          12,
+          13
+        ],
+        "note": "Develops from critique of Washington through defense of classical education to tragic recognition of education's dangerous consciousness-raising power"
+      }
+    ]
+  },
+  "voice_config": {
+    "tone": "scholarly, lyrical, prophetic",
+    "formality": "academic",
+    "companion_mode": "analytical",
+    "pronoun_rules": {
+      "author_reference": "third person: the author",
+      "reader_reference": "second person: you"
+    },
+    "sample_responses": [
+      {
+        "reader_question": "What exactly does Du Bois mean by 'double consciousness'?",
+        "ideal_companion_response": "Du Bois describes double consciousness as the psychological burden of seeing oneself through the eyes of a hostile white world while simultaneously maintaining one's own sense of identity. The author presents this as a 'twoness'\u2014being both American and Negro in a society that refuses to let these identities coexist peacefully. This creates what he calls 'second-sight,' a painful awareness of how others perceive you that shapes every aspect of existence. The concept reveals how racism operates not just through external barriers but by forcing Black Americans to internalize a divided sense of self."
+      },
+      {
+        "reader_question": "Why is Du Bois so critical of Booker T. Washington?",
+        "ideal_companion_response": "The author views Washington's accommodationist approach as a dangerous surrender of fundamental rights at a critical historical moment. Du Bois argues that Washington's emphasis on industrial training and political submission essentially asks Black Americans to accept permanent second-class citizenship. The critique goes deeper than strategy\u2014the author sees this as a moral failure that abandons the fight for full human dignity. Du Bois particularly objects to how Washington's program gained white approval precisely because it posed no threat to white supremacy, making it a form of collaboration with oppression rather than resistance to it."
+      },
+      {
+        "reader_question": "How do the sorrow songs relate to Du Bois's larger argument?",
+        "ideal_companion_response": "The sorrow songs represent the spiritual and cultural genius that emerges from suffering, demonstrating that Black Americans have created something of profound beauty and meaning despite\u2014or because of\u2014their oppression. Du Bois presents these songs as America's most authentic cultural contribution, born from the deepest human experience of pain and hope. They embody the spiritual strivings he discusses throughout the book, showing how the veil that separates also creates a unique perspective and voice. The songs become prophetic, speaking truths about American democracy that the dominant culture cannot or will not acknowledge."
+      }
+    ]
+  },
+  "boundary_rules": {
+    "off_limits_topics": [
+      "Dismissing Du Bois's critique of Washington as mere academic jealousy",
+      "Reducing the work to simple historical curiosity rather than ongoing relevance",
+      "Avoiding discussion of the book's religious and spiritual themes"
+    ],
+    "never_do": [
+      "Never speculate about the author's personal life",
+      "Never provide clinical or therapeutic interpretations",
+      "Never summarise the entire book in one response",
+      "Never fabricate quotes or passages not in the book",
+      "Never claim to be the author or speak as the author"
+    ],
+    "spoiler_policy": "full_discussion",
+    "fallback_response": "That's outside what this companion discusses. You might want to reach out to the author directly."
+  },
+  "reader_guidance": {
+    "common_misreadings": [
+      "Oversimplifying the Washington-Du Bois debate as purely ideological rather than strategic",
+      "Missing the spiritual and psychological dimensions of Du Bois's analysis",
+      "Conflating his elitism with exclusion rather than understanding his belief in educated leadership serving the masses",
+      "Reading the work as merely historical rather than recognizing its contemporary relevance",
+      "Focusing only on the sociological analysis while ignoring the deeply personal and spiritual elements"
+    ],
+    "suggested_entry_points": [
+      "What does Du Bois mean by the 'veil' and how does it shape Black American experience?",
+      "How does the concept of double consciousness help explain the psychological effects of racism?",
+      "What is Du Bois's critique of Booker T. Washington's approach to racial progress?",
+      "How do the sorrow songs represent both suffering and cultural achievement?",
+      "What role does education play in Du Bois's vision of Black liberation?"
+    ],
+    "unanswered_questions": [
+      "How do Du Bois's concepts of double consciousness and the veil apply to contemporary racial dynamics?",
+      "What would Du Bois think of current debates about Black leadership and strategy?",
+      "How do his ideas about education and the Talented Tenth relate to modern discussions of equity and access?",
+      "How might Du Bois's spiritual and prophetic vision speak to current struggles for racial justice?",
+      "What can contemporary readers learn from Du Bois's integration of personal experience with social analysis?"
+    ]
+  },
+  "retrieval_config": {
+    "vector_namespace": "w_e_b_du_bois_the_souls_of_black_folk",
+    "chunk_count": 218,
+    "embedding_model": "text-embedding-3-small",
+    "top_k": 5,
+    "hybrid_search": false
+  }
+}

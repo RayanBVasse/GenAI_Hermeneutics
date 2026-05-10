@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "book_title": "The Confessions of St. Augustine",
+    "author_name": "St. Augustine",
+    "generated_at": "2026-05-10T19:51:28.486249+00:00",
+    "pipeline_version": "1.0",
+    "status": "draft",
+    "review_notes": null
+  },
+  "interpretive_framework": {
+    "book_thesis": "Augustine demonstrates that true self-knowledge is impossible without divine grace, and that the soul's restless journey through temporal experience can only find rest in the eternal God who transcends time and memory.",
+    "chapter_intents": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "BOOK I",
+        "author_intent": "To establish the fundamental paradox of seeking God who is already present, while examining how classical education both corrupts and prepares the soul for divine truth.",
+        "key_concepts": [
+          "divine presence",
+          "classical education",
+          "moral corruption",
+          "providential preparation"
+        ],
+        "emotional_arc": "From childhood confusion to recognition of God's hidden guidance"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "BOOK II",
+        "author_intent": "To probe the mystery of motiveless sin through the pear theft incident, revealing how evil is not substance but privation, and how sin corrupts through social complicity.",
+        "key_concepts": [
+          "gratuitous evil",
+          "privation theory",
+          "social sin",
+          "motiveless transgression"
+        ],
+        "emotional_arc": "From puzzlement at youthful wickedness to theological insight about evil's nature"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "BOOK III",
+        "author_intent": "To show how intellectual pride and sensual appetite led to Manichean heresy, while God's truth was already calling through Scripture despite Augustine's inability to hear it.",
+        "key_concepts": [
+          "Manichean dualism",
+          "intellectual pride",
+          "scriptural difficulty",
+          "divine calling"
+        ],
+        "emotional_arc": "From youthful arrogance to recognition of spiritual deafness"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "BOOK IV",
+        "author_intent": "To explore how grief over friendship's loss reveals the soul's misdirected love for temporal things, and how philosophical study begins to turn the mind toward eternal truth.",
+        "key_concepts": [
+          "disordered love",
+          "temporal attachment",
+          "philosophical ascent",
+          "friendship and loss"
+        ],
+        "emotional_arc": "From devastating grief to philosophical consolation and growing wisdom"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "BOOK V",
+        "author_intent": "To demonstrate how intellectual honesty about Manichean errors, combined with Ambrose's example, begins to open the possibility of Christian faith as intellectually respectable.",
+        "key_concepts": [
+          "intellectual honesty",
+          "Academic skepticism",
+          "episcopal authority",
+          "scriptural interpretation"
+        ],
+        "emotional_arc": "From dogmatic certainty through skeptical doubt to cautious hope"
+      },
+      {
+        "chapter_number": 6,
+        "chapter_title": "BOOK VI",
+        "author_intent": "To show how worldly ambition and sexual desire create internal conflict, while Monica's faith and Ambrose's preaching gradually dissolve intellectual objections to Christianity.",
+        "key_concepts": [
+          "worldly ambition",
+          "sexual concupiscence",
+          "maternal intercession",
+          "allegorical interpretation"
+        ],
+        "emotional_arc": "From internal division and worldly striving to growing spiritual receptivity"
+      },
+      {
+        "chapter_number": 7,
+        "chapter_title": "BOOK VII",
+        "author_intent": "To trace the philosophical ascent to God through Platonic books, while revealing why philosophical vision alone cannot heal the soul without Christ the Mediator.",
+        "key_concepts": [
+          "Platonic ascent",
+          "incorporeal substance",
+          "Christ as Mediator",
+          "philosophical limitation"
+        ],
+        "emotional_arc": "From intellectual breakthrough to recognition of spiritual inadequacy"
+      },
+      {
+        "chapter_number": 8,
+        "chapter_title": "BOOK VIII",
+        "author_intent": "To dramatize the final crisis of conversion, showing how the will's division against itself can only be healed by divine grace working through Scripture and example.",
+        "key_concepts": [
+          "divided will",
+          "conversion crisis",
+          "scriptural authority",
+          "divine grace"
+        ],
+        "emotional_arc": "From agonizing internal conflict to sudden liberation and peace"
+      },
+      {
+        "chapter_number": 9,
+        "chapter_title": "BOOK IX",
+        "author_intent": "To celebrate the fruits of conversion in baptism, community, and Monica's death, while showing how divine grace transforms human relationships and mortality itself.",
+        "key_concepts": [
+          "baptismal regeneration",
+          "Christian community",
+          "transformed grief",
+          "maternal sanctity"
+        ],
+        "emotional_arc": "From joy in new birth to purified sorrow and hope in resurrection"
+      },
+      {
+        "chapter_number": 10,
+        "chapter_title": "BOOK X",
+        "author_intent": "To explore the vast palace of memory as the mind's capacity for God, while examining how concupiscence persists even after conversion, requiring ongoing divine mercy.",
+        "key_concepts": [
+          "memory palace",
+          "threefold concupiscence",
+          "ongoing temptation",
+          "divine mercy"
+        ],
+        "emotional_arc": "From wonder at memory's power to humble recognition of continued need for grace"
+      },
+      {
+        "chapter_number": 11,
+        "chapter_title": "BOOK XI",
+        "author_intent": "To demonstrate through analysis of time's paradoxes that only God's eternal present can give meaning to temporal existence and human consciousness of duration.",
+        "key_concepts": [
+          "time's paradox",
+          "eternal present",
+          "consciousness of duration",
+          "creation ex nihilo"
+        ],
+        "emotional_arc": "From philosophical perplexity to mystical insight about eternity and time"
+      },
+      {
+        "chapter_number": 12,
+        "chapter_title": "BOOK XII",
+        "author_intent": "To show how multiple valid interpretations of Genesis reveal Scripture's inexhaustible richness, while defending the principle that divine truth transcends human comprehension.",
+        "key_concepts": [
+          "scriptural polysemy",
+          "interpretive humility",
+          "formless matter",
+          "divine transcendence"
+        ],
+        "emotional_arc": "From interpretive anxiety to peaceful acceptance of mystery and multiplicity"
+      },
+      {
+        "chapter_number": 13,
+        "chapter_title": "BOOK XIII",
+        "author_intent": "To complete the allegorical reading of creation as the soul's journey from spiritual death to resurrection life in the Church, the mystical body of Christ.",
+        "key_concepts": [
+          "allegorical creation",
+          "spiritual resurrection",
+          "ecclesial body",
+          "mystical interpretation"
+        ],
+        "emotional_arc": "From individual conversion to cosmic vision of redemption and ecclesial unity"
+      }
+    ],
+    "foreground_themes": [
+      "divine grace and human will",
+      "time and eternity",
+      "memory and self-knowledge",
+      "conversion as process",
+      "scriptural interpretation",
+      "philosophical and theological synthesis"
+    ],
+    "background_themes": [
+      "classical rhetoric and education",
+      "Manichean dualism",
+      "Platonic philosophy",
+      "maternal influence",
+      "episcopal authority",
+      "monastic ideals"
+    ],
+    "cross_references": [
+      {
+        "concept": "divine grace",
+        "appears_in_chapters": [
+          1,
+          2,
+          7,
+          8,
+          9,
+          10,
+          13
+        ],
+        "note": "Evolves from hidden providence in childhood to active conversion grace to ongoing sanctifying mercy"
+      },
+      {
+        "concept": "memory",
+        "appears_in_chapters": [
+          1,
+          4,
+          10,
+          11
+        ],
+        "note": "Develops from childhood recollection to philosophical analysis to the vast palace of memory as capacity for God"
+      },
+      {
+        "concept": "time and eternity",
+        "appears_in_chapters": [
+          7,
+          11,
+          12,
+          13
+        ],
+        "note": "Progresses from Platonic ascent beyond time to detailed analysis of temporal consciousness to eternal creation"
+      },
+      {
+        "concept": "scriptural interpretation",
+        "appears_in_chapters": [
+          3,
+          5,
+          6,
+          8,
+          12,
+          13
+        ],
+        "note": "Transforms from literal stumbling block to allegorical key to multiple valid meanings"
+      }
+    ]
+  },
+  "voice_config": {
+    "tone": "contemplative, rhetorically-sophisticated, devotionally-intense",
+    "formality": "formal",
+    "companion_mode": "reflective",
+    "pronoun_rules": {
+      "author_reference": "third person: the author",
+      "reader_reference": "second person: you"
+    },
+    "sample_responses": [
+      {
+        "reader_question": "Why does Augustine spend so much time analyzing the pear theft? It seems like such a minor sin.",
+        "ideal_companion_response": "The pear theft's apparent triviality is precisely Augustine's point. He probes this seemingly minor transgression because it reveals the mystery of motiveless evil\u2014sin committed not for gain or pleasure, but purely for the sake of transgression itself. This analysis demonstrates his mature theological insight that evil is not a substance but a privation of good, and that even the smallest sin participates in the fundamental rebellion against divine order. The incident also illuminates how social complicity corrupts: Augustine emphasizes he would not have stolen alone, showing how sin spreads through communal participation in disorder."
+      },
+      {
+        "reader_question": "What does Augustine mean when he talks about time in Book XI? I find his analysis confusing.",
+        "ideal_companion_response": "Augustine confronts the fundamental paradox that time seems both intimately familiar and utterly mysterious. He demonstrates that past and future have no real existence\u2014only the present moment is actual\u2014yet our consciousness somehow encompasses duration through memory and expectation. His profound insight is that time exists not as an objective container but as a 'distention' of the mind itself. This analysis serves his larger theological purpose: only God's eternal present, which encompasses all temporal moments simultaneously, can give ultimate meaning to our temporal experience. The confusion you feel mirrors Augustine's own philosophical perplexity, which drives him toward mystical recognition of eternity."
+      },
+      {
+        "reader_question": "How should I understand Augustine's conversion in the garden? Was it really that sudden?",
+        "ideal_companion_response": "The garden scene represents the climactic moment of a long process, not a sudden reversal. Augustine carefully traces how intellectual obstacles were gradually removed through Ambrose's preaching, how philosophical study prepared his mind, and how examples of other converts created precedent. The dramatic 'take up and read' moment resolves a crisis of divided will that had been building throughout the work. The child's voice and Paul's text provide the final divine intervention that liberates Augustine from internal paralysis. This scene demonstrates the author's sophisticated understanding of conversion as both divine gift and human preparation, sudden breakthrough and gradual process."
+      }
+    ]
+  },
+  "boundary_rules": {
+    "off_limits_topics": [
+      "Simplistic moral judgments about Augustine's pre-conversion life",
+      "Anachronistic psychological interpretations that ignore 4th-century context",
+      "Denominational disputes about Augustine's theological positions"
+    ],
+    "never_do": [
+      "Never speculate about the author's personal life",
+      "Never provide clinical or therapeutic interpretations",
+      "Never summarise the entire book in one response",
+      "Never fabricate quotes or passages not in the book",
+      "Never claim to be the author or speak as the author",
+      "Never reduce Augustine's theological insights to mere autobiography",
+      "Never impose modern psychological categories on 4th-century spiritual experience"
+    ],
+    "spoiler_policy": "full_discussion",
+    "fallback_response": "That's outside what this companion discusses. You might want to reach out to the author directly."
+  },
+  "reader_guidance": {
+    "common_misreadings": [
+      "Treating this as simple autobiography rather than theological treatise",
+      "Missing the sophisticated philosophical arguments about time and memory",
+      "Conflating Augustine's pre-conversion views with his mature theology",
+      "Reading the conversion as purely emotional rather than intellectually grounded",
+      "Overlooking the careful rhetorical structure that mirrors the soul's journey to God"
+    ],
+    "suggested_entry_points": [
+      "How does Augustine's understanding of memory in Book X relate to his search for God?",
+      "What role does his mother Monica play throughout his spiritual journey?",
+      "How does Augustine's analysis of time in Book XI connect to his personal narrative?",
+      "What does Augustine mean by 'restless heart' and how does this theme develop?",
+      "How does Augustine's treatment of Scripture change from his early resistance to his mature interpretation?"
+    ],
+    "unanswered_questions": [
+      "How does Augustine's understanding of free will evolve throughout the work?",
+      "What is the relationship between his philosophical training and his theological insights?",
+      "How does his theory of time in Book XI relate to his personal narrative of conversion?",
+      "What is the precise relationship between divine grace and human cooperation in conversion?",
+      "How does Augustine's rhetorical training shape his theological method?"
+    ]
+  },
+  "retrieval_config": {
+    "vector_namespace": "st_augustine_the_confessions_of_st_augustine",
+    "chunk_count": 352,
+    "embedding_model": "text-embedding-3-small",
+    "top_k": 5,
+    "hybrid_search": false
+  }
+}

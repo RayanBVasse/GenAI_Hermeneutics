@@ -20,6 +20,8 @@ STRICT_CHAPTER_PATTERNS = [
     re.compile(r"^(Part|PART)\s+[IVXLCDM\d]+", re.IGNORECASE),
     re.compile(r"^(Book|BOOK)\s+[IVXLCDM\d]+", re.IGNORECASE),
     re.compile(r"^(Section|SECTION)\s+\d+", re.IGNORECASE),
+    re.compile(r"^ACT\s+[IVXLCDM]+", re.IGNORECASE),
+    re.compile(r"^[IVXLCDM]+\.\s*$"),  # bare Roman numeral on its own line (e.g. "I.", "XIV.")
 ]
 LOOSE_CHAPTER_PATTERNS = [
     re.compile(r"^\d+\.\s+[A-Z]"),  # "1. Title" format — aggressive, used as last resort
